@@ -12,7 +12,7 @@ const duplicates = [
     'soda'
   ];
 
-  function removeDuplicates(param) {
+function removeDuplicates(param) {
       for(let i = 0; i < param.length; i++){
           for (let j = i + 1; j < param.length; j++) {
               if(param[i] === param[j]){
@@ -20,6 +20,6 @@ const duplicates = [
               }
           }
       }return param;
-  }
+}
 
-  console.log(removeDuplicates(duplicates));
+ removeDuplicates(duplicates);
